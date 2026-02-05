@@ -12,7 +12,7 @@
   "packages": {
     "DBI": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "DBI",
         "Title": "R Database Interface",
@@ -43,7 +43,7 @@
         "RemoteType": "standard",
         "RemoteRef": "DBI",
         "RemotePkgRef": "DBI",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.3"
@@ -51,7 +51,7 @@
     },
     "R6": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -77,7 +77,7 @@
         "RemoteType": "standard",
         "RemoteRef": "R6",
         "RemotePkgRef": "R6",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.6.1"
@@ -85,7 +85,7 @@
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -111,13 +111,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "Rcpp",
         "RemoteRef": "Rcpp",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "1.1.0"
       }
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -138,13 +138,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "base64enc",
         "RemoteRef": "base64enc",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "0.1-3"
       }
     },
     "bit": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "bit",
         "Title": "Classes and Methods for Fast Memory-Efficient Boolean Selections",
@@ -171,7 +171,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bit",
         "RemotePkgRef": "bit",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "4.6.0"
@@ -179,7 +179,7 @@
     },
     "bit64": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "bit64",
         "Title": "A S3 Class for Vectors of 64bit Integers",
@@ -207,7 +207,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bit64",
         "RemotePkgRef": "bit64",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "4.6.0-1"
@@ -215,7 +215,7 @@
     },
     "blob": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "blob",
         "Title": "A Simple S3 Class for Representing Vectors of Binary Data\n('BLOBS')",
@@ -242,7 +242,7 @@
         "RemoteType": "standard",
         "RemoteRef": "blob",
         "RemotePkgRef": "blob",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.4"
@@ -250,7 +250,7 @@
     },
     "bslib": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -282,7 +282,7 @@
         "RemoteType": "standard",
         "RemoteRef": "bslib",
         "RemotePkgRef": "bslib",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.9.0"
@@ -290,7 +290,7 @@
     },
     "cachem": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "cachem",
         "Version": "1.1.0",
@@ -316,7 +316,7 @@
         "RemoteType": "standard",
         "RemoteRef": "cachem",
         "RemotePkgRef": "cachem",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.1.0"
@@ -324,7 +324,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -351,13 +351,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "cli",
         "RemoteRef": "cli",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "3.6.5"
       }
     },
     "commonmark": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -382,7 +382,7 @@
         "RemoteType": "standard",
         "RemoteRef": "commonmark",
         "RemotePkgRef": "commonmark",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.0"
@@ -390,7 +390,7 @@
     },
     "digest": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "digest",
         "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\",\n                    comment = c(ORCID = \"0000-0001-6419-907X\")),\n             person(\"Antoine\", \"Lucas\", role=\"ctb\", comment = c(ORCID = \"0000-0002-8059-9767\")),\n             person(\"Jarek\", \"Tuszynski\", role=\"ctb\"),\n             person(\"Henrik\", \"Bengtsson\", role=\"ctb\", comment = c(ORCID = \"0000-0002-7579-5165\")),\n             person(\"Simon\", \"Urbanek\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2297-1732\")),\n             person(\"Mario\", \"Frasca\", role=\"ctb\"),\n             person(\"Bryan\", \"Lewis\", role=\"ctb\"),\n             person(\"Murray\", \"Stokely\", role=\"ctb\"),\n             person(\"Hannes\", \"Muehleisen\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8552-0029\")),\n             person(\"Duncan\", \"Murdoch\", role=\"ctb\"),\n             person(\"Jim\", \"Hester\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n             person(\"Wush\", \"Wu\", role=\"ctb\", comment = c(ORCID = \"0000-0001-5180-0567\")),\n             person(\"Qiang\", \"Kou\", role=\"ctb\", comment = c(ORCID = \"0000-0001-6786-5453\")),\n             person(\"Thierry\", \"Onkelinx\", role=\"ctb\", comment = c(ORCID = \"0000-0001-8804-4216\")),\n             person(\"Michel\", \"Lang\", role=\"ctb\", comment = c(ORCID = \"0000-0001-9754-0393\")),\n             person(\"Viliam\", \"Simko\", role=\"ctb\"),\n             person(\"Kurt\", \"Hornik\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4198-9911\")),\n             person(\"Radford\", \"Neal\", role=\"ctb\", comment = c(ORCID = \"0000-0002-2473-3407\")),\n             person(\"Kendon\", \"Bell\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9093-8312\")),\n             person(\"Matthew\", \"de Queljoe\", role=\"ctb\"),\n             person(\"Dmitry\", \"Selivanov\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0492-6647\")),\n             person(\"Ion\", \"Suruceanu\", role=\"ctb\", comment = c(ORCID = \"0009-0005-6446-4909\")),\n             person(\"Bill\", \"Denney\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5759-428X\")),\n             person(\"Dirk\", \"Schumacher\", role=\"ctb\"),\n             person(\"András\", \"Svraka\", role=\"ctb\", comment = c(ORCID = \"0009-0008-8480-1329\")),\n             person(\"Sergey\", \"Fedorov\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5970-7233\")),\n             person(\"Will\", \"Landau\", role=\"ctb\", comment = c(ORCID = \"0000-0003-1878-3253\")),\n             person(\"Floris\", \"Vanderhaeghe\", role=\"ctb\", comment = c(ORCID = \"0000-0002-6378-6229\")),\n             person(\"Kevin\", \"Tappe\", role=\"ctb\"),\n             person(\"Harris\", \"McGehee\", role=\"ctb\"),\n             person(\"Tim\", \"Mastny\", role=\"ctb\"),\n             person(\"Aaron\", \"Peikert\", role=\"ctb\", comment = c(ORCID = \"0000-0001-7813-818X\")),\n             person(\"Mark\", \"van der Loo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-9807-4686\")),\n             person(\"Chris\", \"Muir\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2555-3878\")),\n             person(\"Moritz\", \"Beller\", role=\"ctb\", comment = c(ORCID = \"0000-0003-4852-0526\")),\n             person(\"Sebastian\", \"Campbell\", role=\"ctb\", comment = c(ORCID = \"0009-0000-5948-4503\")),\n             person(\"Winston\", \"Chang\", role=\"ctb\", comment = c(ORCID = \"0000-0002-1576-2126\")),\n             person(\"Dean\", \"Attali\", role=\"ctb\", comment = c(ORCID = \"0000-0002-5645-3493\")),\n             person(\"Michael\", \"Chirico\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0787-087X\")),\n             person(\"Kevin\", \"Ushey\", role=\"ctb\", comment = c(ORCID = \"0000-0003-2880-7407\")),\n             person(\"Carl\", \"Pearson\", role=\"ctb\", comment = c(ORCID = \"0000-0003-0701-7860\")))",
@@ -416,13 +416,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "digest",
         "RemoteRef": "digest",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "0.6.39"
       }
     },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -445,7 +445,7 @@
         "RemoteType": "standard",
         "RemoteRef": "fastmap",
         "RemotePkgRef": "fastmap",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.2.0"
@@ -453,7 +453,7 @@
     },
     "fontawesome": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -481,7 +481,7 @@
         "RemoteType": "standard",
         "RemoteRef": "fontawesome",
         "RemotePkgRef": "fontawesome",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.5.3"
@@ -489,7 +489,7 @@
     },
     "fs": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -521,7 +521,7 @@
         "RemoteType": "standard",
         "RemoteRef": "fs",
         "RemotePkgRef": "fs",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.6"
@@ -529,7 +529,7 @@
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -558,13 +558,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "glue",
         "RemoteRef": "glue",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "1.8.0"
       }
     },
     "hms": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "hms",
         "Title": "Pretty Time of Day",
@@ -591,7 +591,7 @@
         "RemoteType": "standard",
         "RemoteRef": "hms",
         "RemotePkgRef": "hms",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.1.4"
@@ -599,7 +599,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "htmltools",
@@ -629,7 +629,7 @@
         "RemoteType": "standard",
         "RemoteRef": "htmltools",
         "RemotePkgRef": "htmltools",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.5.9"
@@ -637,7 +637,7 @@
     },
     "httpuv": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "httpuv",
@@ -666,7 +666,7 @@
         "RemoteType": "standard",
         "RemoteRef": "httpuv",
         "RemotePkgRef": "httpuv",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.16"
@@ -674,7 +674,7 @@
     },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -697,7 +697,7 @@
         "RemoteType": "standard",
         "RemoteRef": "jquerylib",
         "RemotePkgRef": "jquerylib",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.1.4"
@@ -705,7 +705,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "jsonlite",
         "Version": "2.0.0",
@@ -730,13 +730,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "jsonlite",
         "RemoteRef": "jsonlite",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "2.0.0"
       }
     },
     "later": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "later",
@@ -766,7 +766,7 @@
         "RemoteType": "standard",
         "RemoteRef": "later",
         "RemotePkgRef": "later",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.4.4"
@@ -774,7 +774,7 @@
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -802,13 +802,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "lifecycle",
         "RemoteRef": "lifecycle",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "1.0.4"
       }
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -836,7 +836,7 @@
         "RemoteType": "standard",
         "RemoteRef": "magrittr",
         "RemotePkgRef": "magrittr",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.4"
@@ -844,7 +844,7 @@
     },
     "memoise": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "memoise",
         "Title": "'Memoisation' of Functions",
@@ -868,7 +868,7 @@
         "RemoteType": "standard",
         "RemoteRef": "memoise",
         "RemotePkgRef": "memoise",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.1"
@@ -876,7 +876,7 @@
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -900,7 +900,7 @@
         "RemoteType": "standard",
         "RemoteRef": "mime",
         "RemotePkgRef": "mime",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.13"
@@ -908,7 +908,7 @@
     },
     "odbc": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "odbc",
         "Title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
@@ -941,7 +941,7 @@
         "RemoteType": "standard",
         "RemoteRef": "odbc",
         "RemotePkgRef": "odbc",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.6.4.1"
@@ -949,7 +949,7 @@
     },
     "otel": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "otel",
         "Title": "OpenTelemetry R API",
@@ -976,7 +976,7 @@
         "RemoteType": "standard",
         "RemoteRef": "otel",
         "RemotePkgRef": "otel",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.2.0"
@@ -984,7 +984,7 @@
     },
     "pkgconfig": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -1007,7 +1007,7 @@
         "RemoteType": "standard",
         "RemoteRef": "pkgconfig",
         "RemotePkgRef": "pkgconfig",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "2.0.3"
@@ -1015,7 +1015,7 @@
     },
     "promises": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "promises",
@@ -1046,7 +1046,7 @@
         "RemoteType": "standard",
         "RemoteRef": "promises",
         "RemotePkgRef": "promises",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.5.0"
@@ -1054,7 +1054,7 @@
     },
     "rappdirs": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1081,7 +1081,7 @@
         "RemoteType": "standard",
         "RemoteRef": "rappdirs",
         "RemotePkgRef": "rappdirs",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.3.3"
@@ -1089,7 +1089,7 @@
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "rlang",
         "Version": "1.1.6",
@@ -1120,13 +1120,13 @@
         "RemoteType": "standard",
         "RemotePkgRef": "rlang",
         "RemoteRef": "rlang",
-        "RemoteRepos": "http://rspm/default/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
         "RemoteSha": "1.1.6"
       }
     },
     "sass": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1154,7 +1154,7 @@
         "RemoteType": "standard",
         "RemoteRef": "sass",
         "RemotePkgRef": "sass",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.4.10"
@@ -1162,7 +1162,7 @@
     },
     "shiny": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Type": "Package",
         "Package": "shiny",
@@ -1191,7 +1191,7 @@
         "RemoteType": "standard",
         "RemoteRef": "shiny",
         "RemotePkgRef": "shiny",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.12.1"
@@ -1199,7 +1199,7 @@
     },
     "sourcetools": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1222,7 +1222,7 @@
         "RemoteType": "standard",
         "RemoteRef": "sourcetools",
         "RemotePkgRef": "sourcetools",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.1.7-1"
@@ -1230,7 +1230,7 @@
     },
     "vctrs": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -1259,7 +1259,7 @@
         "RemoteType": "standard",
         "RemoteRef": "vctrs",
         "RemotePkgRef": "vctrs",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.6.5"
@@ -1267,7 +1267,7 @@
     },
     "withr": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -1296,7 +1296,7 @@
         "RemoteType": "standard",
         "RemoteRef": "withr",
         "RemotePkgRef": "withr",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "3.0.2"
@@ -1304,7 +1304,7 @@
     },
     "xtable": {
       "Source": "CRAN",
-      "Repository": "http://rspm/default/latest",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -1329,7 +1329,7 @@
         "RemoteType": "standard",
         "RemoteRef": "xtable",
         "RemotePkgRef": "xtable",
-        "RemoteRepos": "http://rspm/default/__linux__/noble/latest",
+        "RemoteRepos": "https://packagemanager.posit.co/cran/__linux__/noble/latest",
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "1.8-4"
