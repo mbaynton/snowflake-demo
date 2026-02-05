@@ -27,22 +27,8 @@ get_oauth_token <- function(session) {
     stop("No user session token found. This app requires OAuth authentication.")
   }
 
-  # Get Connect server address
-  connect_server <- Sys.getenv("CONNECT_SERVER")
-  if (connect_server == "") {
-    # Fallback: try to construct from request
-    connect_server <- paste0(
-      session$request$HTTP_X_FORWARDED_PROTO %||% "https",
-      "://",
-      session$request$HTTP_HOST
-    )
-  }
-
-  # Create connectapi client
-  client <- connect(
-    server = connect_server,
-    api_key = NULL  # Not needed for viewer auth
-  )
+  # Create connectapi client (no parameters needed when running on Connect)
+  client <- connect()
 
   # Use connectapi's helper function to get OAuth credentials
   # This will trigger Connect's OAuth modal if user hasn't authenticated
