@@ -32,10 +32,7 @@ get_oauth_token <- function(session) {
 
   # Use connectapi's helper function to get OAuth credentials
   # This will trigger Connect's OAuth modal if user hasn't authenticated
-  credentials <- get_oauth_credentials(
-    client = client,
-    user_session_token = user_session_token
-  )
+  credentials <- get_oauth_credentials(client, user_session_token)
 
   # Return just the access token
   return(credentials$access_token)
