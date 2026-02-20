@@ -15,11 +15,6 @@ SNOWFLAKE_SCHEMA <- "PUBLIC"
 
 # Function to get OAuth access token from Connect using connectapi
 get_oauth_token <- function(session) {
-  # Only works when running on Connect
-  if (Sys.getenv("RSTUDIO_PRODUCT") != "CONNECT") {
-    stop("This app must run on Posit Connect to use OAuth integrations")
-  }
-
   # Get the user session token from Shiny session headers
   user_session_token <- session$request$HTTP_POSIT_CONNECT_USER_SESSION_TOKEN
 
