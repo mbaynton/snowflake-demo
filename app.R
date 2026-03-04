@@ -47,7 +47,7 @@ connect_to_snowflake <- function(session) {
       database = SNOWFLAKE_DATABASE,
       schema = SNOWFLAKE_SCHEMA,
       authenticator = "oauth",
-      token = access_token
+      token = odbc::quote_value(access_token)
     )
 
     # Test the connection with a simple query
@@ -83,7 +83,7 @@ query_snowflake <- function(session, query) {
       database = SNOWFLAKE_DATABASE,
       schema = SNOWFLAKE_SCHEMA,
       authenticator = "oauth",
-      token = access_token
+      token = odbc::quote_value(access_token)
     )
 
     result <- dbGetQuery(con, query)
