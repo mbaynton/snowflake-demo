@@ -95,9 +95,42 @@ query_snowflake <- function(session, query) {
     ))
 
   }, error = function(e) {
+    # Capture comprehensive debugging information
+    error_class <- paste(class(e), collapse = ", ")
+    error_call <- if (!is.null(e$call)) deparse(e$call) else "N/A"
+
+    # Categorize the error type
+    error_msg_lower <- tolower(e$message)
+    error_category <- if (grepl("oauth|token|authentication|unauthorized", error_msg_lower)) {
+      "Authentication Error"
+    } else if (grepl("syntax|parse|unexpected", error_msg_lower)) {
+      "SQL Syntax Error"
+    } else if (grepl("timeout|connection|network|refused", error_msg_lower)) {
+      "Connection Error"
+    } else if (grepl("permission|access denied|privilege", error_msg_lower)) {
+      "Permission Error"
+    } else if (grepl("not found|does not exist|unknown", error_msg_lower)) {
+      "Object Not Found Error"
+    } else {
+      "General Error"
+    }
+
     return(list(
       success = FALSE,
-      error = e$message
+      error = e$message,
+      debug = list(
+        timestamp = Sys.time(),
+        error_category = error_category,
+        error_class = error_class,
+        error_call = error_call,
+        query = query,
+        connection_params = list(
+          account = SNOWFLAKE_ACCOUNT,
+          database = SNOWFLAKE_DATABASE,
+          warehouse = SNOWFLAKE_WAREHOUSE,
+          schema = SNOWFLAKE_SCHEMA
+        )
+      )
     ))
   })
 }
@@ -285,10 +318,42 @@ server <- function(input, output, session) {
         )
       )
     } else {
-      div(
-        class = "alert alert-danger",
-        icon("exclamation-triangle"),
-        strong(" Query failed: "), result$error
+      debug_info <- result$debug
+      tagList(
+        div(
+          class = "alert alert-danger",
+          icon("exclamation-triangle"),
+          strong(" Query failed: "), result$error
+        ),
+        if (!is.null(debug_info)) {
+          card(
+            card_header(
+              class = "bg-secondary text-white",
+              icon("bug"), " Debug Information"
+            ),
+            tags$dl(
+              class = "row mb-0",
+              tags$dt(class = "col-sm-3", "Category:"),
+              tags$dd(class = "col-sm-9", debug_info$error_category),
+              tags$dt(class = "col-sm-3", "Timestamp:"),
+              tags$dd(class = "col-sm-9", as.character(debug_info$timestamp)),
+              tags$dt(class = "col-sm-3", "Error Class:"),
+              tags$dd(class = "col-sm-9", tags$code(debug_info$error_class)),
+              tags$dt(class = "col-sm-3", "Error Call:"),
+              tags$dd(class = "col-sm-9", tags$code(debug_info$error_call))
+            ),
+            hr(),
+            h6("Query Attempted:"),
+            tags$pre(class = "bg-light p-2", style = "white-space: pre-wrap;", debug_info$query),
+            h6("Connection Parameters:"),
+            tags$ul(
+              tags$li(strong("Account: "), debug_info$connection_params$account),
+              tags$li(strong("Database: "), debug_info$connection_params$database),
+              tags$li(strong("Warehouse: "), debug_info$connection_params$warehouse),
+              tags$li(strong("Schema: "), debug_info$connection_params$schema)
+            )
+          )
+        }
       )
     }
   })
