@@ -8,7 +8,7 @@ library(bslib)
 library(connectapi)
 
 # Snowflake connection parameters
-SNOWFLAKE_ACCOUNT <- "BMB83620"
+SNOWFLAKE_ACCOUNT <- "mhb16489"
 SNOWFLAKE_DATABASE <- "TEST_DB"
 SNOWFLAKE_WAREHOUSE <- "COMPUTE_WH"
 SNOWFLAKE_SCHEMA <- "PUBLIC"
