@@ -9,8 +9,8 @@ library(connectapi)
 
 # Snowflake connection parameters
 SNOWFLAKE_ACCOUNT <- "mhb16489"
-SNOWFLAKE_DATABASE <- "TEST_DB"
-SNOWFLAKE_WAREHOUSE <- "COMPUTE_WH"
+SNOWFLAKE_DATABASE <- "AIR_QUALITY_DATA_UNITED_STATES"
+SNOWFLAKE_WAREHOUSE <- "CI_WH"
 SNOWFLAKE_SCHEMA <- "PUBLIC"
 
 # Function to get OAuth access token from Connect using connectapi
