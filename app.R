@@ -314,7 +314,21 @@ server <- function(input, output, session) {
         ),
         div(
           style = "max-height: 400px; overflow-y: auto;",
-          renderTable(result$data, striped = TRUE, hover = TRUE)
+          tags$table(
+            class = "table table-striped table-hover",
+            tags$thead(
+              tags$tr(
+                lapply(names(result$data), function(col) tags$th(col))
+              )
+            ),
+            tags$tbody(
+              lapply(seq_len(nrow(result$data)), function(i) {
+                tags$tr(
+                  lapply(result$data[i, ], function(val) tags$td(as.character(val)))
+                )
+              })
+            )
+          )
         )
       )
     } else {
